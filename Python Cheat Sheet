@@ -1,0 +1,26 @@
+Python Cheat Sheet
+------------------------------------------------------
+1. Just single underscore(_): The python interpreter stores the last expression value to the special variable called ‘_’
+		ex: >>> 10 
+			10 
+			>>> _ 
+			10
+2. The underscore is also used for ignoring the specific values
+	ex: x,_,y = 1,2,3 => x=1, y=3
+		x,*_,y = (1,2,3,4,5) => x=1, y=5
+3. _single_leading_underscore: This convention is used for declaring private variables, functions, methods and classes in a module. So, these variables or functions are not imported when doing "import * "
+   ex: _var => Private Variable
+	   _func() => private function only accessisable in the scope of class.
+4. single_trailing_underscore_ : This convention could be used for avoiding conflict with Python keywords or built-ins
+	ex: list_ is used to avoid conflict with list built-ins
+5. __double_leading_underscore : This is more of a syntax than convention. double underscore will mangle the attribute names of a class to avoid conflicts of attribute names between classes.
+6. When you reference a variable in an expression, the Python interpreter will traverse the scope to resolve the reference in this order:
+	1. The current function’s scope
+	2. Any enclosing scopes (like other containing functions)
+	3. The scope of the module that contains the code (also called the
+	global scope)
+	4. The built-in scope (that contains functions like len and str)
+
+	If none of these places have a defined variable with the referencedname, then a NameError exception is raised.
+7. To set path : SET PATH: "%PATH%"<PATH WHERE PYTHON IS INSTALLED>;
+8. Ctrl+/ --> comments block code
