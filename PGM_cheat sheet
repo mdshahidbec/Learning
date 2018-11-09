@@ -1,0 +1,67 @@
+NFR-Non Functional Requirements.
+FPA-Function Point Analysis
+SNAP- Software Non Functional Assessment Process
+SCU - Snap Counting Unit
+UCP-Use case Point.
+WBS-Work Breakdown Structure
+T&M-Time and Material
+CAPA- corrective Action Preventive Action
+SLA: Service Level Agreement
+OFI: Opputunity for Imporvement
+IQA: Internal Quality Audit
+QMG: Quality Management Group
+SOP: Standard Operation Procedures
+LOB's: Line of Businesses
+BTIS: Business Transformation and Intelligent services
+CDEX- Capability Development and Execution
+
+
+Project time management knowledge area:
+plan->define->sequence->estimate resources->estimate duration->develop schedule->Control schedule.
+
+Initiation-->planning-->execution-->Monitoring and control-->closing
+
+Schedule planninging:
+Develop scope documents --> Plan resources --> Plan schedule --> Plan cost
+
+Triple constraint model:
+Scop, cost and schedule
+
+Planning process group:
+	-Plan schedule management
+	-Define activities
+	-Sequence Activities
+	-Estimate Activities Resources
+	-Estimate Activities duration
+	-Development Schedule
+
+Control Schedule Group:
+
+	-Monitoring and control
+
+Plan schedule management inputs:
+	-Project Management Plan
+	-Project Charter
+	-Enterprise environmental factors
+	-Organizational process assets
+	
+Tools for plan schedule management:
+	- Expert Judgement
+	-Analytical techniques
+	-Meetings
+output of plan schedule management is the schedule management plan
+Details present in schedule management plan:
+	-scheduling tools(Duration will be estimated based on the schedule of similar past project)
+	-units of measure(Estimates will be rounded to nearest hours,Number in the schedule will represent days for completing each task)
+	-control thresholds(actual time may vary from the planned time by 3% before taking action)
+	-performance measurement(The specific points in the wbs at which earned value will be calculated)
+	-links
+	-reports
+	
+Identifying Project activities:
+
+scope baseline:
+	WBS
+	WBS dictionary 
+	Project scope statement
+	
