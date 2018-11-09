@@ -1,0 +1,52 @@
+1. Keras - Keras is a high-level neural networks API, written in Python and capable of running on top of TensorFlow, CNTK, or Theano.
+2. TensorFlow - TensorFlow™ is an open source software library for high performance numerical computation
+
+Label(Y) - lable is a true thing which we are predicting ( example - spam or not spam)
+Features(x) - features are input variables describing out data ( example - words in email , to and from address etc)
+Examples - Example is an instance of data
+		Two categories of examples:	
+			labled: A labeled example includes both feature(s) and the label.
+			unlabled: An unlabeled example contains features but not the label
+Models - A model defines the relationship between features and label
+Training - Training means creating or learning the model.That is, you show the model labeled examples and enable the model to gradually learn the relationships between features and label
+Inference - Inference means applying the trained model to unlabeled examples. That is, you use the trained model to make useful predictions (y').
+Loss - Loss or squared error or L2 Loss is the square of difference between actual value(lable) and the predicted value(prediction). ie (y-y')2
+empirical risk minimization - its a process to minimize the loss
+Mean square error (MSE) - is the average squared loss per example over the whole dataset
+Stochastic Gradient Descent: one example at a time
+Mini-Batch Gradient Descent: batches of 10-1000
+
+
+3. Feature scaling is also known as Data Normalization. Its a technique used to standardize the range of independent variables or features of data. 
+4. Categorical Variables: Its a variable which can take on one of the limited and usually fixed number of possible values.
+5. Why is Data Normalization or Feature Scaling required?
+	Ans: parameters should have the same scale for a fair comparison between them.
+	Two methods are usually well known for rescaling data. Normalization, which scales all numeric variables in the range [0,1]. 
+	x' = x-min(x)/max(x)-min(x-min)
+	On the other hand, you can use standardization on your data set. It will then transform it to have zero mean and unit variance, for example using the equation below:
+	x' = x - mean(x)/standard_devation(x)
+	
+	Both of these techniques have their drawbacks. If you have outliers in your data set, normalizing your data will certainly scale the “normal” data to a very small interval. And generally, most of data sets have outliers. When using standardization, your new data aren’t bounded (unlike normalization).
+6. Steps in preprocessing using python:
+	1. importing the necessary libraries
+	2. Importing the data set using these libraries ex: with Pandas
+	3. handling missing data
+	4. Encoding categorical Variables
+	5. splitting the data set into Training and test data
+	6. Optionally doing Data Normalization or feature scaling
+	
+7. Different Regression Models:
+	1. Simple Linear Regression
+	2. Multiple Linear Regression
+	3. Polynomial Regression
+	4. Support Vector for Regression (SVR)
+	5. Decision Tree Classification
+	6. Random Forest Classification
+	
+7.1 Simple Linear Regression:
+	y = b0+b1x where X is the independent variable and Y is the dependent Variables. 
+		b0 is the Y-Intercept and b1 is the slope of the straight line.
+	Typically uses the Ordinary least square method. Its a technique of minimizing the sum of squares of the differences between the Observed dependent variable with those predicted by the model or linear function.
+		
+
+
