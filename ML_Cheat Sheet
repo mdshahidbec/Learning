@@ -1,3 +1,30 @@
+General Jargons:
+1. Data Mining:Data mining is the process of discovering patterns in large data sets involving methods at the intersection of machine learning, statistics, and database systems.(Source: Wikipedia)
+2. Machine Learning:Machine Learning is a discipline within artificial intelligence that is focused on using data (or interactive experience) to build intelligent systems
+3. Artificial Intelligence:Artificial Intelligence is a collection of problems and methods related to making computers behave intelligently and solve complex problems
+4. Data Science:Data Science involves skills and concepts from several different areas, including statistics, machine learning, and visualization
+5. Big Data:Big data is a term used to refer to data sets that are too large or complex for traditional data-processing application software to adequately deal with
+6. Information Retrieval:it is the activity of obtaining information system resources relevant to an information need from a collection of information resources
+7. Data Analytics:Data analytics (DA) is the process of examining data sets in order to draw conclusions about the information they contain, increasingly with the aid of specialized systems and software. 
+8. Deep Learning:Deep Learning is a subfield of machine learning concerned with algorithms inspired by the structure and function of the brain called artificial neural networks.
+9. Artificial Neural Networks: Its a framework for different Machine learning algorithms to work together and process complex data inputs.
+
+
+ML vs AI:
+
+ARTIFICIAL INTELLIGENCE														MACHINE LEARNING
+1. AI stands for Artificial intelligence, where intelligence is defined acquisition     1. ML stands for Machine Learning which is defined as the acquisition of knowledge or skill
+of knowledge intelligence is defined as a ability to acquire and apply knowledge.	
+2. The aim is to increase chance of success and not accuracy.				2. The aim is to increase accuracy, but it does not care about success
+3. It work as a computer program that does smart work					3. It is a simple concept machine takes data and learn from data.
+4. The goal is to simulate natural intelligence to solve complex problem		4. The goal is to learn from data on certain task to maximize the performance of machine on this task.
+5. AI is decision making.								5. ML allows system to learn new things from data.
+6. It leads to develop a system to mimic human to respond behave in a circumstances.	6. It involves in creating self learning algorithms.
+7. AI will go for finding the optimal solution.						7. ML will go for only solution for that whether it is optimal or not.
+8. AI leads to intelligence or wisdom.							8. ML leads to knowledge.
+
+
+
 1. Keras - Keras is a high-level neural networks API, written in Python and capable of running on top of TensorFlow, CNTK, or Theano.
 2. TensorFlow - TensorFlow™ is an open source software library for high performance numerical computation
 
