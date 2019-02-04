@@ -1,0 +1,43 @@
+Basics of Statistics:
+---------------------------------------------------------------------------------------------------------------
+What is statistics:
+	-statistics is the methodology for collecting, analyzing, interpreting and drawing conclusions from information or data. 
+Measures of center:Descriptive measures that indicate where the center or the most typical value of the variable lies in collected set of measurements are called measures of center
+	Mean:
+		-The sample mean of the variable is the sum of observed values in a data divided by the number of observations.
+		
+	Median:	
+		-The sample median of a quantitative variable is that value of the variable in a data set that divides the set of observed values in half
+		-Arrange the observed values of variable in a data in increasing order.
+			1. If the number of observation is odd, then the sample median is the
+			observed value exactly in the middle of the ordered list.
+			2. If the number of observation is even, then the sample median is the
+			number halfway between the two middle observed values in the ordered
+			list.
+	
+	Mode:
+		- The sample mode of a qualitative or a discrete quantitative variable is that value of the variable which occurs with the greatest frequency in a data set.
+		- Obtain the frequency of each observed value of the variable in a data and note the greatest frequency.
+			1. If the greatest frequency is 1 (i.e. no value occurs more than once),
+			then the variable has no mode.
+			2. If the greatest frequency is 2 or greater, then any value that occurs with
+			that greatest frequency is called a sample mode of the variable.
+
+Measures of variation: Its a measure of variation of variable from the center
+	Range:
+		- The sample range of the variable is the difference between its maximum and minimum values in a data set:
+	Interquartile range:
+		- The sample interquartile range of the variable, denoted IQR, is the difference between the first and third quartiles of the variable, that is,
+		IQR = Q3 − Q1.
+		Roughly speaking, the IQR gives the range of the middle 50% of the observed values.
+		-The first quartile Q1 is at position (n+1)/4
+		-The second quartile Q2 (the median) is at position (n+1)/2
+		-The Third quartile Q3 is at position 3*(n+1)/4
+		The five-number summary of the variable consists of minimum, maximum, and quartiles written in increasing order:
+			Min, Q1, Q2, Q3, Max.
+	Standard deviation:
+		-It can be considered as a kind of average of the absolute deviations of observed values from the mean of the variable in question.
+
+Z-score:
+	It is calcuated with the below formula:
+		Z-score = (X - Mean)/Standard Deviation
