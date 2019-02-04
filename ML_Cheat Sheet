@@ -8,6 +8,12 @@ General Jargons:
 7. Data Analytics:Data analytics (DA) is the process of examining data sets in order to draw conclusions about the information they contain, increasingly with the aid of specialized systems and software. 
 8. Deep Learning:Deep Learning is a subfield of machine learning concerned with algorithms inspired by the structure and function of the brain called artificial neural networks.
 9. Artificial Neural Networks: Its a framework for different Machine learning algorithms to work together and process complex data inputs.
+10. How to choose number of clusters in Kmeans?
+	- WCSS(Within Cluster Sum of Squares) also called 'Inertia'
+	- Elbow method - Look for the point where the drop in WCSS drop changes from big value to relatively small value.
+11. Constraining a model to make it simpler and reduce the risk of overfitting is called regularization
+12. The error rate on new cases is called the generalization error (or out-of-sample error)
+13. If the training error is low (i.e., your model makes few mistakes on the training set) but the generalization error is high, it means that your model is overfitting the training data.
 
 
 ML vs AI:
@@ -42,13 +48,7 @@ empirical risk minimization - its a process to minimize the loss
 Mean square error (MSE) - is the average squared loss per example over the whole dataset
 Stochastic Gradient Descent: one example at a time
 Mini-Batch Gradient Descent: batches of 10-1000
-How to choose number of clusters in Kmeans?
-	- WCSS(Within Cluster Sum of Squares) also called 'Inertia'
-	- Elbow method - Look for the point where the drop in WCSS drop changes from big value to relatively small value.
-Constraining a model to make it simpler and reduce the risk of overfitting is called regularization
-The error rate on new cases is called the generalization error (or out-of-sample error)
-If the training error is low (i.e., your model makes few mistakes on the training set) but the generalization
-error is high, it means that your model is overfitting the training data.
+
 
 3. Feature scaling is also known as Data Normalization. Its a technique used to standardize the range of independent variables or features of data. 
 4. Categorical Variables: Its a variable which can take on one of the limited and usually fixed number of possible values.
