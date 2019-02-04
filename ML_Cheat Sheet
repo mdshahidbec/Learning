@@ -42,7 +42,13 @@ empirical risk minimization - its a process to minimize the loss
 Mean square error (MSE) - is the average squared loss per example over the whole dataset
 Stochastic Gradient Descent: one example at a time
 Mini-Batch Gradient Descent: batches of 10-1000
-
+How to choose number of clusters in Kmeans?
+	- WCSS(Within Cluster Sum of Squares) also called 'Inertia'
+	- Elbow method - Look for the point where the drop in WCSS drop changes from big value to relatively small value.
+Constraining a model to make it simpler and reduce the risk of overfitting is called regularization
+The error rate on new cases is called the generalization error (or out-of-sample error)
+If the training error is low (i.e., your model makes few mistakes on the training set) but the generalization
+error is high, it means that your model is overfitting the training data.
 
 3. Feature scaling is also known as Data Normalization. Its a technique used to standardize the range of independent variables or features of data. 
 4. Categorical Variables: Its a variable which can take on one of the limited and usually fixed number of possible values.
